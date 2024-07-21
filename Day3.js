@@ -21,21 +21,18 @@ else{
 }
 
 // <----------------------------------Task3-------------------------------------------->
-let a=45; 
-let b=67; 
-let c=34;
-if(a>c){
-    if(a>b){
-        console.log("a is greater");
-    }
-    else{
-        console.log("b is greater");
-    }
+let a = 45;
+let b = 67;
+let c = 34;
+
+if (a > b && a > c) {
+    console.log("a is the greatest");
+} else if (b > a && b > c) {
+    console.log("b is the greatest");
+} else {
+    console.log("c is the greatest");
 }
 
-else{
-    console.log("c is greater")
-}
 
 // <----------------------------------Task4-------------------------------------------->
 let day= prompt("Enter the any no from 1 to 7 to print the corresponding day"); 
